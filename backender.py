@@ -61,7 +61,8 @@ const listing: MarketplaceListing = {{
 export default listing 
 """.format(label=label, tagline=tagline, now=now, category_label=category_label.lower())
 
-print(listing)
+with open("listing.ts", "w") as write_file:
+    write_file.write(listing)
 
 
 
