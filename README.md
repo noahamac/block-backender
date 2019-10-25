@@ -1,2 +1,10 @@
 # block-backender
- Gets you halfway there.
+ Gets you *halfway* there.
+
+## Usage:
+
+`$ python backender.py marketplace.json`
+
+## Output
+
+`- listing.ts`
