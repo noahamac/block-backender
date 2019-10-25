@@ -1,5 +1,5 @@
 # block-backender
- Gets you halfway there.
+ Gets you *halfway* there.
 
 ## Usage:
 
