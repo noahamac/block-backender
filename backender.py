@@ -24,11 +24,11 @@ import {{ MarketplaceListing, fileURL }} from "../../src/data"
 import {{ category, byLooker, connectionHubDetails }} from ".."
 
 const listing: MarketplaceListing = {{
-  id: [ UNIQUE STRING BASED ID ],
-  label: {label},
+  id: "[ UNIQUE STRING BASED ID ]",
+  label: "{label}",
   author: byLooker,
   branding: {{
-	image_uri: [ fileURL("block-icons/FILENAME.png") ],
+	image_uri:  fileURL("block-icons/FILENAME.png") ,
 	tagline:
 	  "{tagline}",
   }},
